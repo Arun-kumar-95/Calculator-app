@@ -1,7 +1,7 @@
 
 ## React Todo App
 
-- Todo app helps to keep track of the daily things. with this app ypu can add a new todos , delete the new todos and update the todos.
+- This react calculator is craeted using useReducer hooks which helps us to easily manage application state when we have a lots of state :)
 
 - Live Demo : https://react-calculator-v1.netlify.app/
 
@@ -9,7 +9,7 @@
 
 ## How to Setup project locally
 
-1. visit the url : https://github.com/Arun-kumar-95/react-todo-app
+1. visit the url : https://github.com/Arun-kumar-95/Calculator-app
 
 2. Download the zip file and open with your favourite editior
 
@@ -22,4 +22,4 @@
 ## About Author
 - Arun Kumar : https://github.com/Arun-kumar-95
 
-- This was an aweome experience coding todo app using react.
+- This was an aweome experience coding calculator app using react.
