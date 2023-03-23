@@ -6,6 +6,7 @@ import React, { useReducer } from "react";
 import { ACTIONS } from "../Actions";
 // IMPORTING THE REDUCER FUNCTION
 import { reducer } from "../Reducer";
+import Screen from "./Screen";
 // INITIALIZING THE INITIAL STATE
 const initialState = "";
 
@@ -18,13 +19,8 @@ const App = () => {
     <div className="calculator-container">
       <div className="keypad keypad-grid">
         {/* DEFINING THE SCREEN FOR THE CALCULATOR APP*/}
-        <div className="screen">
-          <div className="previous-operand">{state.previousValue}</div>
-          <div className="current-operand">
-            <span className="operation-sign">{state.operation}</span>
-            {state.currentValue}
-          </div>
-        </div>
+        <Screen state={state} />
+
         {/* DEFINING THE  BUTTONS FOR THE CALCULATOR APP*/}
         <button digit="Clear" onClick={() => dispatch({ type: ACTIONS.CLEAR })}>
           C

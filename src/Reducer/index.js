@@ -14,6 +14,7 @@ export const reducer = (state, action) => {
         ...state,
         currentValue: `${state.currentValue || ""}${action.payload}`,
       };
+      
     // CLEAR SCREEN CASE
     case ACTIONS.CLEAR:
       // BY SETTING THE EMPTY STSTE WE CAN CLEAR THE SCREEN
