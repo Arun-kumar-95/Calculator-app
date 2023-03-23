@@ -1,7 +1,7 @@
 
-## React Todo App
+## React Calculator App
 
-- This react calculator is craeted using useReducer hooks which helps us to easily manage application state when we have a lots of state :)
+- This react calculator is created using useReducer hooks which helps us to easily manage application state when we have a lots of state :)
 
 - Live Demo : https://react-calculator-v1.netlify.app/
 
